@@ -57,6 +57,7 @@ to call upon the attribute of an object
 to create a new attribute in an array, simply:
 
     object.newAttribute = newValue
+    object['newAttribute'] = newValue
 
 -----
 
