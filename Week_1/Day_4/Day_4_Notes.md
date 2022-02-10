@@ -11,8 +11,6 @@
 <br>
 
 --------------
-<br>
-
 ## Function as values 
 
 Functions can be passed with different values 
@@ -39,8 +37,6 @@ function doActionFourTimes(action){
 <br>
 
 -----------
-<br>
-
 ## Passing functions 
 Functions can be passed as arguments to other functions
 ```javascript
@@ -63,8 +59,6 @@ Functions that are passed to functions are called callbacks. In other words, a c
 <br>
 
 -----------
-<br>
-
 ## Anonymous functions
 We don't have to pass a function variable to a higher order function as a callback but instead, we can pass an unnamed (anonymous) function directly inline.
 ```javascript
@@ -85,8 +79,6 @@ runDatabaseQuery(sayHello);
 <br>
 
 -----------
-<br>
-
 ## Arrow Functions 
 
 Arrow functions give us a syntactic alternative to using the function keyword, they are way more compact, and they treat the variable `this` a little differently 
@@ -121,8 +113,6 @@ When `this` is utilized, the output will come out different based on what type o
 <br>
 
 ---------------------------
-<br>
-
 ## Make your own higher function callback 
 ```javascript
 const animalNoises = ['Oink', 'Moo', 'Meow', 'Bark'];

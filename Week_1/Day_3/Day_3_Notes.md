@@ -11,8 +11,6 @@
 <br>
 
 ----- 
-<br>
-
 ## Primitives Types 
 There are 7 primitive types of data in JavaScript, to check the data type of a data, we can use the `.typeOf()` operator. Primitive types are immutable.
 
@@ -36,8 +34,6 @@ There are 7 primitive types of data in JavaScript, to check the data type of a d
 <br>
 
 ----- 
-<br>
-
 ### `Objects`
 We want to store values in JS that has properties instead of just numbers, which has certain attribute assigned to it. 
 
@@ -68,8 +64,6 @@ object['newAttribute'] = newValue
 <br>
 
 ----- 
-<br>
-
 ## Passing Values 
 
 ### `global scope` vs. `local scope`
@@ -90,15 +84,11 @@ When changing the value of an global variable of an object within an function, t
 <br>
 
 ----- 
-<br>
-
   [PythonTutor](https://pythontutor.com/visualize.html#mode=edit) is a great tool used to visualize the function of your code, it breaks down the code into step by step process so it's easier to visualize. 
 
 <br>
 
 ----- 
-<br>
-
 ## Methods 
 
 a function that belongs to an object, each method has their own unique function stored to the method 
@@ -112,14 +102,12 @@ a function that belongs to an object, each method has their own unique function 
 ### To create a method: 
   - Create a `function` assinged to a key within an object 
     - Can also assign a function in the global scope to a key within the object 
-    - If we invoke the function within the object instead of assigning the name of the function, the value of the function will be assigned instead of the function itself
+  - If we invoke the function within the object instead of assigning the name of the function, the value of the function will be assigned instead of the function itself
     - The key will not be a method, instead it will just be storing a primitive value 
 
 <br>
 
 ----- 
-<br>
-
 ## Keyword `This`
 the keyword `This` reference to the whole object
   -  Is a keyword that accesses the given scope's object.
@@ -129,8 +117,6 @@ the keyword `This` reference to the whole object
 <br>
 
 ----- 
-<br>
-
 ## Object iteration with `for...in` looping
 
 Objects are not ordered in any way, so.. what are we looping over? The `key names` will be looped through!
